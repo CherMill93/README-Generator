@@ -109,11 +109,11 @@
 
    # GitHub
    ${git}
-   ![Developer's Profile](https://github.com/${git})
+   [Developer's Profile](https://github.com/${git})
 
 
    # Email
-   ![For any questions, concerns, or feedback please reach out here:]${email}
+   For any questions, concerns, or feedback please reach out here <a href="mailto:${email}">${email}</a>
    `;
 
    // TODO: Create a function to write README file

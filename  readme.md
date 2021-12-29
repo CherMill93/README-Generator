@@ -1,9 +1,9 @@
-# README Generator
+# readme generator
    # Installation
    npm i
 
    # Instructions
-   follow prompts as they come
+   n/a
 
    # Credits
    n/a
@@ -12,12 +12,14 @@
    n/a
 
    # License
-   N/A
-   ![Github License](https://img.shields.io/badge/license-N/A-blue.svg)
+   MIT
+   ![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
 
    # GitHub
    CherMill93
+   ![Developer's Profile](https://github.com/CherMill93)
+
 
    # Email
-   cmille2016@gmail.com
+   For any questions, concerns, or feedback please reach out here <a href="mailto:cmille2016@gmail.com">cmille2016@gmail.com</a>
    
