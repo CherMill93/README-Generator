@@ -54,7 +54,7 @@
           else {return 'I need a value to continue'}},
       },
       { //list of license
-        type: 'list',
+        type: 'checklist', //if more that one use 'checkbox'
         message: 'What licenses did you use?',
         name: 'license',
         choices: ['MIT', 'GPL', 'Apache', 'GNU', 'N/A'],
