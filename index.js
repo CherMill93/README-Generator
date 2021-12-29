@@ -57,7 +57,7 @@
         type: 'list',
         message: 'What licenses did you use?',
         name: 'license',
-        choices: ['MIT', 'GPL', 'Apache', 'Apache', 'GNU', 'N/A'],
+        choices: ['MIT', 'GPL', 'Apache', 'GNU', 'N/A'],
         validate: (value)=>{ 
           if(value){return true} 
           else {return 'I need a license to continue'}},
@@ -109,9 +109,11 @@
 
    # GitHub
    ${git}
+   ![Developer's Profile](https://github.com/${git})
+
 
    # Email
-   ${email}
+   ![For any questions, concerns, or feedback please reach out here:]${email}
    `;
 
    // TODO: Create a function to write README file

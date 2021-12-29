@@ -3,7 +3,7 @@
    npm i
 
    # Instructions
-   follow prompts
+   follow prompts as they come
 
    # Credits
    n/a
@@ -12,8 +12,8 @@
    n/a
 
    # License
-   MIT
-   ![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
+   N/A
+   ![Github License](https://img.shields.io/badge/license-N/A-blue.svg)
 
    # GitHub
    CherMill93
