@@ -1,23 +1,24 @@
-# readme generator
+# README Generator
    # Installation
    npm i
 
    # Instructions
-   n/a
+   follow prompts
 
    # Credits
    n/a
 
    # Usage
-   n/a
+   follow prompts
 
    # License
-   MIT
-   ![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
+   Apache
+   ![Github License](https://img.shields.io/badge/license-Apache-blue.svg)
 
    # GitHub
    CherMill93
-   ![Developer's Profile](https://github.com/CherMill93)
+   [Developer's Profile](https://github.com/CherMill93)
+   Developer's Profile <a href="https://github.com/CherMill93">CherMill93</a>
 
 
    # Email
