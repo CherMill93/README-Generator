@@ -54,10 +54,10 @@
           else {return 'I need a value to continue'}},
       },
       { //list of license
-        type: 'input',
+        type: 'list',
         message: 'What licenses did you use?',
         name: 'license',
-        choices: ['The MIT License', 'The GPL License', 'Apache License', 'Apache License', 'GNU License', 'N/A'],
+        choices: ['MIT', 'GPL', 'Apache', 'Apache', 'GNU', 'N/A'],
         validate: (value)=>{ 
           if(value){return true} 
           else {return 'I need a license to continue'}},
@@ -105,6 +105,7 @@
 
    # License
    ${license}
+   ![Github License](https://img.shields.io/badge/license-${license}-blue.svg)
 
    # GitHub
    ${git}
@@ -114,7 +115,7 @@
    `;
 
    // TODO: Create a function to write README file
-    createNewFile(title, template);
+    createNewFile("ReadMe", template);
   }
   );
 
@@ -124,7 +125,7 @@
 // TODO: Create a function to initialize app
   function createNewFile(fileName, data){
     //fs
-    fs.writeFile(`./ ${fileName.toLowerCaser().split(' ').join(' ')}.md`,data, () => {
+    fs.writeFile(`./ ${fileName.toLowerCase().split(' ').join(' ')}.md`,data, (err) => {
       if(err){
         console.log(err)
       }
