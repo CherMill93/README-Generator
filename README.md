@@ -1,3 +1,10 @@
-# Professional README Generator Starter Code
+# Professional README Generator
 
-[How to create a Professional README](./readme-guide.md)
+# Instructions
+Follow prompts as they come to enter all pertinent information
+
+# Credits
+Tutor Sangeetha KP and YouTuber Javier Perez
+
+# Usage
+Use to generate a README file for your project. Contains use information, any credits you need to add, licence badges, and GitHub and email links

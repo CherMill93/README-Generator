@@ -3,17 +3,17 @@
    npm i
 
    # Instructions
-   Follow prompts as they come and enter all relevant information
+   Follow prompts as they come to enter all pertinent information
 
    # Credits
-   tutor Sangeetha KP, and YouTuber Javier Perez
+   Tutor Sangeetha KP and YouTuber Javier Perez
 
    # Usage
-   Use to create a readme file for any project you are working. Will generate a file with descriptions, GitHub repo link, email, and any license or user credits needed
+   Use to generate a README file for your project. Contains use information, any credits you need to add, licence badges, and GitHub and email links
 
    # License
-   MIT
-   ![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
+   N/A
+   ![Github License](https://img.shields.io/badge/license-N/A-blue.svg)
 
    # GitHub
    CherMill93

@@ -39,14 +39,6 @@
       },
       {
         type: 'input',
-        message: 'Any credits you would like to add?',
-        name: 'credits',
-        validate: (value)=>{ 
-          if(value){return true} 
-          else {return 'I need a value to continue, use No if not applicable'}},
-      },
-      {
-        type: 'input',
         message: 'How do you use your app?',
         name: 'usage',
         validate: (value)=>{ 
@@ -54,13 +46,21 @@
           else {return 'I need a value to continue'}},
       },
       { //list of license
-        type: 'checklist', //if more that one use 'checkbox'
+        type: 'list', //if more that one use 'checkbox'
         message: 'What licenses did you use?',
         name: 'license',
         choices: ['MIT', 'GPL', 'Apache', 'GNU', 'N/A'],
         validate: (value)=>{ 
           if(value){return true} 
           else {return 'I need a license to continue'}},
+      },
+      {
+        type: 'input',
+        message: 'Any credits you would like to add?',
+        name: 'credits',
+        validate: (value)=>{ 
+          if(value){return true} 
+          else {return 'I need a value to continue, use No if not applicable'}},
       },
       {
         type: 'input',
